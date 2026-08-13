@@ -25,7 +25,8 @@ let package = Package(
             exclude: [
                 "doc",
                 "m4",
-                "src/serial_win32.c"
+                "src/serial_win32.c",
+                "examples"
             ],
             publicHeadersPath: "include",
             cSettings: [
@@ -82,4 +83,4 @@ let package = Package(
             ]
         )
     ]
-) 
+)
